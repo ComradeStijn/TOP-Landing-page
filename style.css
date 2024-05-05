@@ -9,6 +9,7 @@ body {
 header {
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 1em 15em;
 }
 
 .hero-main-text {
@@ -19,6 +20,12 @@ header {
 .top {
     display: flex;
     margin-bottom: 24px;
+    justify-content: space-between;
+}
+
+.top-right-links {
+    display: flex;
+    gap: 2em;
 }
 
 .logo {
