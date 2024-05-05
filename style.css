@@ -62,7 +62,7 @@ button {
 
 .header-content {
     display: flex;
-   margin: 70px 0;
+    margin: 70px 0;
 }
 
 #header-content-left, #header-content-right {
@@ -74,6 +74,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
 }
 
 .image-container {
