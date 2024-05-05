@@ -9,12 +9,27 @@ body {
 header {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 1em 15em;
+    padding: 1% 15%;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: none;
 }
 
 .hero-main-text {
     font-size: 48px;
     font-weight: bold;
+}
+
+#hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .top {
@@ -31,4 +46,21 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    flex: 0 0 auto;
+}
+
+.header-content {
+    display: flex;
+   margin: 70px 0;
+}
+
+#header-content-left, #header-content-right {
+    flex: 1;
+}
+
+#header-content-right {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
