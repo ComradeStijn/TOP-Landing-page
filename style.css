@@ -150,3 +150,10 @@ button {
 #action-left {
     margin: 40px auto 40px 60px;
 }
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
